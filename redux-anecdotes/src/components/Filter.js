@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux'
 import { filterChange } from '../reducers/filterReducer'
 
-const Filter = (props) => {
+const Filter = () => {
   const dispatch = useDispatch()
 
   const handleChange = (event) => {
